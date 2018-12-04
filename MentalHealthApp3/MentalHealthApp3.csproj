@@ -68,13 +68,75 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AnsweredQuestions.aspx" />
+    <Content Include="Councillor Answers.aspx" />
+    <Content Include="CouncillorQuestions.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="FAQ.aspx" />
+    <Content Include="Grades.aspx" />
+    <Content Include="LUUStaff.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AnsweredQuestions.aspx.cs">
+      <DependentUpon>AnsweredQuestions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AnsweredQuestions.aspx.designer.cs">
+      <DependentUpon>AnsweredQuestions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Councillor Answers.aspx.cs">
+      <DependentUpon>Councillor Answers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Councillor Answers.aspx.designer.cs">
+      <DependentUpon>Councillor Answers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CouncillorQuestions.aspx.cs">
+      <DependentUpon>CouncillorQuestions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CouncillorQuestions.aspx.designer.cs">
+      <DependentUpon>CouncillorQuestions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FAQ.aspx.cs">
+      <DependentUpon>FAQ.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FAQ.aspx.designer.cs">
+      <DependentUpon>FAQ.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Grades.aspx.cs">
+      <DependentUpon>Grades.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Grades.aspx.designer.cs">
+      <DependentUpon>Grades.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LUUStaff.aspx.cs">
+      <DependentUpon>LUUStaff.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LUUStaff.aspx.designer.cs">
+      <DependentUpon>LUUStaff.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="Properties\PublishProfiles\CustomProfile.pubxml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web.CustomProfile.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
